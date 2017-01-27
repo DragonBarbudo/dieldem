@@ -93,8 +93,8 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/style.less",
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
@@ -115,17 +115,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/dieldem.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 135704,
-		"inputAbbreviatedPath": "\/dieldem.png",
-		"outputAbbreviatedPath": "\/dieldem.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/favicon.png": {
 		"fileType": 32768,
