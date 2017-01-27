@@ -12,8 +12,8 @@
 <? } ?>
 
 <!-- FAVICON -->
-<link rel="shortcut icon" href="favicon.ico<? echo d($b); ?>" />
-<link rel="icon" type="image/ico" href="favicon.ico<? echo d($b); ?>" />
+<link rel="shortcut icon" href="favicon.png<? echo d($b); ?>" />
+<link rel="icon" type="image/ico" href="favicon.png<? echo d($b); ?>" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png<? echo d($b); ?>"/>
 <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 <!-- HUMANS -->
