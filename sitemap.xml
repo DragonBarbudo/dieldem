@@ -12,38 +12,9 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://dieldem.com.mx/index.php</loc>
+  <loc>http://dieldem.com.mx/index.html</loc>
   <lastmod>2012-08-05T01:16:34+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
-<url>
-  <loc>http://dieldem.com.mx/carrocerias.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://dieldem.com.mx/almacenaje.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://dieldem.com.mx/servicios.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://dieldem.com.mx/personalizacion.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://dieldem.com.mx/mas.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://dieldem.com.mx/contacto.php</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
+
 </urlset>

@@ -1,0 +1,156 @@
+mixin modal-sol(id, twoimg)
+  .modal(id=id)
+    
+    .modal-background
+    .modal-content
+      button.modal-close.is-large
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/"+id+".jpg")
+            if twoimg
+              img(src="app/img/modals/"+id+"-2.jpg")
+          .column
+            if block
+              block
+
+
+
+
+
++modal-sol('modal-carton-flow', false)
+  h3 Carton Flow
+  p Sistema PEPS para el surtido y / o picking.
+  p #[strong.main-txt Diseñado] con ruedas de polietileno de alta densidad y rieles de acero para facilitar el deslizamiento por gravedad.
+  p #[strong.main-txt Ideal] para almacenamiento de productos de gran volumen y alta rotación como son:
+  ul
+    li Cajas
+    li Bolsas
+    li Gavetas plásticas
+
+
++modal-sol('modal-sistema-picking', false)
+  h3 Sistema Picking
+  p #[strong.main-txt Diseñado] para mercancías de mediano peso, controlando la selectividad y fácil acceso en cada nivel.
+  p #[strong.main-txt Ideal] para productos de gran volumen y para tiendas de abastecimiento.
+
++modal-sol('modal-cargas-pesadas', false)
+  h3 Cargas Pesadas
+  p: strong.main-txt Sistema selectivo
+  p Rack estático #[strong.main-txt diseñado] para almacenar diversos productos.
+  ul
+    li Permite una colocación fácil y rápida.
+    li Se adapta a cualquier tipo de tamaño o peso.
+    li Es el sistema mas común en el mercado teniendo un 100% de acceso al producto y proporcionando un mejor control de inventarios.
+  p #[strong.main-txt Ideal] para el ramo farmacéutico, alimenticio, operadores logísticos, etc.
+
++modal-sol('modal-double-deep', false)
+  h3 Double Deep
+  p #[strong.main-txt Diseñado] a doble profundidad y para montacargas con doble reach.
+  p #[strong.main-txt Ideal] para la optimización de espacios, donde el producto no deba estar en piso, permitiendo un acceso rápido.
+
++modal-sol('modal-drive-in', true)
+  h3 Drive In / Thru
+  p Sistema #[strong.main-txt diseñado] para el almacenamiento de diversos productos, rigoroso control de entradas, salidas y eliminación de espacios muertos.
+  p #[strong.main-txt Ideal] para productos de mediana rotación y diferentes tipos de productos.
+
+
++modal-sol('modal-dinamico', false)
+  h3 Dinámico
+  p Sistema #[strong PEPS] (Primeras entradas y primeras salidas).
+  p #[strong.main-txt Ideal] para productos de alta rotación, ahorro de espacios y la manipulación de los diferentes productos.
+
+
++modal-sol('modal-pushback', false)
+  h3 Push Back
+
++modal-sol('modal-cantilever', false)
+  h3 Sistema Cantilever
+  
++modal-sol('modal-push-flow', false)
+  h3 Sistema Push Flow
+
++modal-sol('modal-entreplanta', false)
+  h3 Entreplanta
+  p Entrepiso
+
++modal-sol('modal-autoportante', false)
+  h3 Autoportante
+
++modal-sol('modal-mezzanine', true)
+  h3 Mezzanine
+  
+  
+  
+  
+  
+  
+  
+.modal#modal-seguridad
+  
+  .modal-background
+  .modal-content
+    button.modal-close.is-large
+    
+    .slider-in
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-1.jpg")
+          .column
+            h3 Accesorios de seguridad
+            ul
+              li Protectores de bota lámina
+            
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-2.jpg")
+          .column
+            h3 Accesorios de seguridad
+            ul
+              li Protectores de bota estructural
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-3.jpg")
+          .column
+            h3 Accesorios de seguridad
+            ul
+              li Protectores de bota lateral
+.modal#modal-accesorios
+  
+  .modal-background
+  .modal-content
+    button.modal-close.is-large
+    
+    .slider-in
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-4.jpg")
+          .column
+            h3 ¡Todo para equipar tu almacen!
+            p Además de diseñar e instalar sistemas de almacenajes y cumpliendo con nuestra misión de brindarle servicios integrales contamos con otros productos que le ayudaran a mantener en perfecto estado los sistemas que ya tienen.
+            ul
+              li Conveyors
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-5.jpg")
+          .column
+            h3 ¡Todo para equipar tu almacen!
+            ul
+              li Toboganes
+              li Polipasto
+      .box
+        .columns
+          .column.flexverticalcenter
+            img(src="app/img/modals/accesorios-6.jpg")
+          .column
+            h3 ¡Todo para equipar tu almacen!
+            ul
+              li Resbaladillas
+              li Transportadores de tambo
+              li Transportadores de caja
+              li Carros surtidores

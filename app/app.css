@@ -1,0 +1,416 @@
+.font {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* SLIDER ----------------------- */
+.main-txt {
+  color: #2899A9;
+}
+.sec-txt {
+  color: #2A6CA6;
+}
+.slider {
+  position: relative;
+}
+.slider img {
+  width: 100%;
+}
+.slider .slick-slide {
+  position: relative;
+}
+.slider .text {
+  position: absolute;
+  bottom: 40px;
+  left: -100%;
+  background: transparent;
+  background-image: url(img/pleca-sl.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  max-width: 504px;
+  height: 148px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2899A9;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8em;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 40px;
+  transition: all 0.5s ease-in-out;
+}
+@media (max-width: 504px) {
+  .slider .text {
+    background-size: 100%;
+    font-size: 1rem;
+    bottom: 0px;
+  }
+}
+.slider .slick-active .text {
+  transition: all 0.6s ease-in-out;
+  left: 0%;
+}
+.slick-arrow {
+  position: absolute;
+  top: 40px;
+  z-index: 9;
+  font-size: 0;
+  background: transparent;
+  border: none;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+  margin: -22px 10px 0 10px;
+  cursor: pointer;
+}
+.slick-arrow:focus {
+  outline: none;
+}
+.slick-arrow:after {
+  font: normal normal normal 16px/1 FontAwesome;
+}
+.slick-arrow.slick-prev {
+  right: 30px;
+}
+.slick-arrow.slick-prev:after {
+  content: "\f053";
+}
+.slick-arrow.slick-next {
+  right: 0;
+}
+.slick-arrow.slick-next:after {
+  content: "\f054";
+}
+.slick-arrow:hover {
+  color: #2899A9;
+}
+.slider-in .slick-arrow {
+  color: #2899A9;
+  top: auto;
+  bottom: 10px;
+}
+h2,
+h3,
+h4 {
+  color: #2A6CA6;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding: 16px 0;
+  display: inline-block;
+  position: relative;
+}
+h3 {
+  font-size: 1.4em;
+  padding: 10px 0;
+}
+h4 {
+  font-size: 1.2em;
+  padding: 0;
+}
+p {
+  margin: 20px 0;
+}
+a.navbar-item.is-active,
+a.navbar-item:hover,
+a.navbar-link.is-active,
+a.navbar-link:hover {
+  background: transparent;
+}
+/* SITE ########################################################## */
+.topbar {
+  background-image: linear-gradient(#2ca8ba, #248b9a);
+  font-size: 0.8rem;
+  padding: 8px 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: .05em;
+}
+.topbar a {
+  color: #fff;
+}
+.topbar a:hover {
+  color: #2A6CA6;
+}
+.topbar strong {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+.topbar .fa {
+  color: #1e4d77;
+  margin-right: 5px;
+}
+.navbar {
+  background: #fff;
+  z-index: 10 !important;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar a {
+  font-weight: bold;
+  color: #1e4d77;
+}
+.navbar a:hover {
+  color: #2A6CA6;
+  background: transparent;
+}
+.navbar a.is-active {
+  color: #2A6CA6;
+}
+.navbar .minilogo {
+  margin-left: -200%;
+  transition: all 1s;
+}
+.is-sticky .navbar .minilogo {
+  margin-left: 0%;
+  transition: all 1s;
+}
+.logo {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo a {
+  margin-left: -16%;
+}
+.banner-class {
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 404px;
+  position: relative;
+  margin: 100px 0 100px 0;
+}
+.banner-class img {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  top: 100PX;
+}
+.banner {
+  background-image: url(img/dieldem-banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 404px;
+  position: relative;
+  margin: 100px 0 100px 0;
+}
+.banner img {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  top: 100PX;
+}
+.banner2 {
+  background-image: url(img/dieldem-banner2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 404px;
+  position: relative;
+  margin: 100px 0 100px 0;
+}
+.banner2 img {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  top: 100PX;
+}
+.banner3 {
+  background-image: url(img/dieldem-banner3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 404px;
+  position: relative;
+  margin: 100px 0 100px 0;
+}
+.banner3 img {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  top: 100PX;
+}
+section.section {
+  margin: 100px 0;
+}
+footer {
+  background: #F3F3F3;
+}
+.modal-content p {
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+.modal-content ul {
+  list-style: none;
+}
+.modal-content ul li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 0.8em;
+  color: #2A6CA6;
+  margin-right: 10px;
+}
+#sistemas-de-almacenamiento .button {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 0;
+  height: auto;
+  background: #2899A9;
+  border: none;
+  overflow: hidden;
+}
+#sistemas-de-almacenamiento .button span.icon {
+  display: block;
+  margin: 0;
+  background: #000;
+  height: auto;
+  width: 40px;
+  padding: 5px;
+  color: #2899A9;
+}
+#sistemas-de-almacenamiento .button .over {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  transition: 0.4s all ease-in-out;
+}
+#sistemas-de-almacenamiento .button span:not(.icon) {
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+#sistemas-de-almacenamiento .button:hover {
+  background: #2A6CA6;
+}
+#sistemas-de-almacenamiento .button:hover span.icon {
+  color: #2A6CA6;
+}
+#sistemas-de-almacenamiento .button:hover .over {
+  left: 0;
+  transition: 0.4s all ease-in-out;
+}
+.flexverticalcenter {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#mantenimiento ul {
+  list-style: none;
+}
+#mantenimiento ul li {
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+#mantenimiento ul li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  color: #2A6CA6;
+  margin-right: 18px;
+}
+#mantenimiento .mantenimientos {
+  margin: 60px 0;
+}
+#mantenimiento .mantenimientos h3 {
+  color: #2899A9;
+}
+#mantenimiento .mantenimientos h3:before {
+  display: none;
+}
+#carrocerias h3 {
+  font-size: 1.4em;
+  color: #2899A9;
+}
+#carrocerias h3:before {
+  display: none;
+}
+#carrocerias ul.list {
+  list-style: none;
+}
+#carrocerias ul.list li {
+  font-size: 1em;
+  margin-top: 10px;
+}
+#carrocerias ul.list li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  color: #2A6CA6;
+  margin-right: 4px;
+}
+#carrocerias .tabs-content .card {
+  display: none;
+}
+#carrocerias .tabs-content .card.is-active {
+  display: block;
+}
+#contacto a {
+  color: #2A6CA6;
+}
+#contacto .button-send {
+  background: #2899A9;
+  border: none;
+  overflow: hidden;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#contacto .button-send:hover {
+  background: #2A6CA6;
+}
+footer {
+  background: #2A6CA6;
+  color: #fff;
+  font-size: 0.9em;
+}
+footer h4 {
+  color: #1e4d77;
+}
+footer .button {
+  font-size: 0.8em;
+  background: rgba(255, 255, 255, 0.5);
+}
+footer a,
+footer .navbar-item {
+  color: #F3F3F3;
+  padding: 0;
+}
+footer a:hover,
+footer .navbar-item:hover {
+  color: #1e4d77;
+}
+footer .navbar-item {
+  text-align: center !important;
+  width: 100%;
+}
+footer .fa {
+  margin-right: 10px;
+}
+footer .footer-logo {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-logo img {
+  max-width: 120px;
+}
+/*# sourceMappingURL=app.css.map */

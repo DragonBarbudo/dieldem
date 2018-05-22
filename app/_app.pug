@@ -1,0 +1,116 @@
+mixin head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css")
+  link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+  link(rel="stylesheet", href="//unpkg.com/slick-carousel@1.8.1/slick/slick.css")
+  //link(rel="stylesheet", href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+  link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Open+Sans|Oswald")
+  link(rel="stylesheet" href="app/app.css")
+  meta(name="description" content="Somos una empresa 100% mexicana con una gran experiencia en el ramo industrial de Sistemas de Almacenaje con Racks de todo tipo.")
+    
+
+mixin scripts
+  
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+  script(src="//unpkg.com/slick-carousel@1.8.1/slick/slick.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js")
+  script(src="app/app.js")
+
+
+
+mixin navigation(url)
+  if url
+    - absolute = "index.html"
+  else
+    - absolute = ""
+  .navbar(role="navigation")
+    .container
+      .navbar-brand
+        
+        a(href="#inicio").navbar-item.minilogo
+          img(src="app/img/dieldem-h.png", alt="Dieldem Soluciones Integrales")
+        .column.is-8
+        .navbar-burger.burger
+          span
+          span
+          span
+      .navbar-menu#menu
+        .navbar-end
+          +navitems(absolute)
+            
+
+mixin navitems(absolute)
+
+  a(href=absolute+"#sistemas-de-almacenamiento").navbar-item SISTEMAS DE ALMACENAMIENTO
+  a(href=absolute+"#mantenimiento").navbar-item MANTENIMIENTO
+  a(href=absolute+"#carrocerias").navbar-item CARROCERÍAS
+  a(href=absolute+"#trabajos").navbar-item TRABAJOS
+  a(href=absolute+"#contacto").navbar-item CONTACTO
+  
+mixin socialnetworks
+  .socialnetworks.columns.is-mobile.has-text-centered
+    a(href="#" target="_blank").column.fb: i.fa.fa-facebook
+    a(href="#" target="_blank").column.tw: i.fa.fa-twitter
+    a(href="" target="_blank").column.li: i.fa.fa-linkedin
+    a(href="" target="_blank").column.in: i.fa.fa-instagram
+    a(href="" target="_blank").column.yt: i.fa.fa-youtube-play
+  
+mixin topbar
+  .topbar: .container: .level
+    .level-left.animated.fadeInLeft
+      .level-item
+        | #[strong DIELDEM SOLUCIONES INTEGRALES]
+        
+    .level-right
+      a(href="tel:41181027").level-item
+        i.fa.fa-phone
+        span 01 (55) 4118-1027
+      a(href="tel:59860684").level-item
+        i.fa.fa-phone
+        span 5986-0684
+      a(href="mailto:ventas@dieldem.com.mx").level-item
+        i.fa.fa-envelope-open
+        span ventas@dieldem.com.mx
+
+
+mixin footer
+  footer
+    .section
+      .container
+        .columns
+          .column.is-3.footer-logo
+            img(src="app/img/dieldem-w.png")
+          .column
+            h4.is-size-3 Dieldem Soluciones Integrales
+            p Somos una empresa 100% mexicana con una gran experiencia en el ramo industrial de Sistemas de Almacenaje con Racks de todo tipo.
+            .level
+              a(href="tel:41181027").button.level-item
+                i.fa.fa-phone
+                span 01 (55) 4118-1027
+              a(href="tel:59860684").button.level-item
+                i.fa.fa-phone
+                span 5986-0684
+              a(href="mailto:ventas@dieldem.com.mx").button.level-item
+                i.fa.fa-envelope-open
+                span ventas@dieldem.com.mx
+          .column
+            h4.is-size-3 Sitio
+            .has-text-centered: +navitems("")
+            
+            
+        
+
+
+mixin modal-buttons(title, ref)
+  a(data-modal="#"+ref).button
+    span.icon.is-small: i.fa.fa-plus
+    span.icon.is-small.over: i.fa.fa-search-plus
+    span=title
+
+mixin edos
+  - edos =  ["Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Ciudad de México", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "México", "Michoacán", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas"]
+  each ed in edos
+    option(value=ed)=ed

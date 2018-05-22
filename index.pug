@@ -1,0 +1,313 @@
+include app/_app
+include app/_modals
+doctype html
+html(lang="es")
+  head
+    +head
+    title DIELDEM Soluciones Integrales
+    meta(name="description" content="DIELDEM S.A DE C.V es una empresa dedicada a mejorar y dar soluciones integrales a sistemas de almacenaje y de transportación de los materiales.")
+  body
+    
+    +topbar
+    +navigation(false)
+    #inicio.container
+      .columns
+        .column.is-4.logo
+          a(href="#inicio")
+            img(src="app/img/dieldem-soluciones-integrales.png", alt="Dieldem Soluciones Integrales")
+        .column.is-8
+          .slider
+            div
+              img(src="app/img/dieldem-0.jpg")
+              .text ¡DESCUBRE UNA FORMA MÁS FÁCIL Y PRÁCTICA PARA ALMACENAR TUS PRODUCTOS!
+            div
+              img(src="app/img/dieldem-1.jpg")
+              .text ¡DESCUBRE UNA FORMA MÁS FÁCIL Y PRÁCTICA PARA ALMACENAR TUS PRODUCTOS!
+
+            div
+              img(src="app/img/dieldem-2.jpg")
+              .text ¡DESCUBRE UNA FORMA MÁS FÁCIL Y PRÁCTICA PARA ALMACENAR TUS PRODUCTOS!
+    
+          
+          
+    section.section#quienes-somos
+      .container
+        .columns
+          .column.is-4
+            img(src="app/img/dieldem-quienes-somos.jpg")
+          .column
+            h2 ¿QUIÉNES SOMOS?
+            p.sec-txt Somos una empresa #[strong.sec-txt 100% mexicana] con una gran experiencia en el ramo industrial de #[strong.sec-txt Sistemas de Almacenaje] con #[strong.main-txt Racks] de todo tipo.
+            p Por lo que integramos nuestros servicios técnicos, administrativos y de ingeniería para satisfacer sus necesidades, dando un servicio integral y especializado para resolver plenamente las necesidades de cada cliente.
+            .has-text-centered: strong.is-size-4.main-txt.font2 ¡Somos tu mejor opción!
+    
+    .banner
+      img(src="app/img/dieldem-w.png")
+        
+      
+    section.section#sistemas-de-almacenamiento
+      .container
+        .columns
+          
+          .column
+            h2 SISTEMAS DE ALMACENAMIENTO
+            .columns
+              .column
+                p Ofrecemos diferentes productos y servicios de la mas alta calidad con un equipo de ingenieros especializados en dar soluciones en sistemas de almacenajes.
+              .column
+                p
+                  span.sec-txt ¿Para qué funcionan los #[strong.sec-txt racks]?
+                  br
+                  span Ayudan a controlar el amacenamiento de inventarios, además de que optimizan los espacios y ahorran el tiempo en operaciones, facilitando el manejo de producto.
+            hr
+            .has-text-centered: strong.is-size-4.main-txt.font2 ¡Implementamos ideas para el mejoramiento de espacios!
+            hr
+      .container
+        .columns
+          .column
+            h3 SOLUCIONES PRÁCTICAS EN ALMACENAMIENTO
+        .columns
+          .column
+            p
+              strong.sec-txt Carga ligera
+              br
+              span Estantería ligera, Atornillado y Arma fácil.
+          .column
+            p
+              strong.sec-txt Diseñado
+              br
+              span Para peso ligero, controlando la selectividad y fácil acceso.
+          .column
+            p
+              strong.sec-txt Ideal
+              br
+              span Para archivo muerto, carpetas, cajas y gavetas plásticas.
+        .columns
+          .column: +modal-buttons('CARTON FLOW', 'modal-carton-flow')
+          .column: +modal-buttons('SISTEMA PICKING', 'modal-sistema-picking')
+          .column: +modal-buttons('CARGAS PESADAS', 'modal-cargas-pesadas')
+          .column: +modal-buttons('DOUBLE DEEP', 'modal-double-deep')
+        .columns
+          .column: +modal-buttons('DRIVE IN/THRU', 'modal-drive-in')
+          .column: +modal-buttons('DINÁMICO', 'modal-dinamico')
+          .column: +modal-buttons('PUSHBACK', 'modal-pushback')
+          .column: +modal-buttons('CANTILEVER', 'modal-cantilever')
+        .columns
+          .column: +modal-buttons('PUSH FLOW', 'modal-push-flow')
+          .column: +modal-buttons('ENTREPLANTA', 'modal-entreplanta')
+          .column: +modal-buttons('AUTOPORTANTE', 'modal-autoportante')
+          .column: +modal-buttons('MEZZANINE', 'modal-mezzanine')
+        .columns.is-centered
+          .column.is-6: +modal-buttons('ACCESORIOS DE SEGURIDAD', 'modal-seguridad')
+          .column.is-6: +modal-buttons('¡TODO PARA EQUIPAR TU ALMACÉN!', 'modal-accesorios')
+            
+    .banner2
+      img(src="app/img/dieldem-w.png")
+            
+    section.section#mantenimiento
+      .container
+        .columns
+          .column.is-7
+            img(src="app/img/dieldem-mantenimiento.jpg")
+          .column
+            h2 MANTENIMIENTO
+            ul
+              li Travesaños.
+              li Marcos.
+              li Vigas
+              li Parrillas
+              li Protectores de bota.
+            
+      .mantenimientos: .container.has-text-centered
+          .section
+            .columns
+              .column
+                hr
+                .has-text-centered: strong.is-size-4.sec-txt.font2 Diseñamos, instalamos y mantenemos sus racks.
+                hr
+            .columns.is-centered
+              .column.is-4
+                .card
+                  .card-content
+                    h3.title Mantenimiento Preventivo
+                    p Revisión periódica de los sistemas de racks, para detectar las necesidades del sistema y obtener la operación correcta, seguridad en el equipo y para minimizar costos.
+              .column.is-4.is-offset-1
+                .card
+                  .card-content
+                    h3.title Mantenimiento Correctivo
+                    p Ajuste y reparación del sistema de racks para el correcto funcionamiento de operación y seguridad.
+            .columns.is-centered
+              .column.is-4
+                .card
+                  .card-content
+                    h3.title Montaje
+                    p Contamos con personal especializado en DC3, para la instalación de cualquier sistema de almacenaje.
+              .column.is-4.is-offset-1
+                .card
+                  .card-content
+                    h3.title Desmontaje
+                    p Servicio donde nuestro cliente necesita un cambio de instalaciones.
+    
+    .banner3
+      img(src="app/img/dieldem-w.png")
+            
+    section.section#carrocerias
+      .container
+        .columns
+          .column: h2 CARROCERÍAS
+        .columns.is-multiline
+          .column.is-12-tablet.is-3-desktop
+            p Contamos con un área especializada en la fabricación de carrocerías en general, manteniendo nuestro estilo y ajustándonos a las necesidades de nuestros clientes.
+            p.sec-txt Fabricación y reparación de todo tipo de carrocerías así como maquila, corte y dobles de placa hasta ¼, venta y reparación de equipos de refrigeración.
+            ul.list
+              li Frigoríficas
+              li Refrigeración, congelación y todo tipo de acondicionamiento.
+              li Mudanceras.
+              li Tipo van carga seca.
+              li Plataformas con redilas, redilas fijas.
+              li Conversión a tándem y torton.
+              li Conversión de suspensión de muelles a suspensión de aire
+          .column.is-12-tablet.is-9-desktop
+            .columns.is-centered
+              .column
+                .tabs
+                  ul
+                    li.is-active: a(data-tab="#tab-mudanceras") Mudanceras
+                    li: a(data-tab="#tab-cajas-secas") Cajas secas
+                    li: a(data-tab="#tab-tipo-jaulas") Tipo Jaulas
+                    li: a(data-tab="#tab-tipo-gaseras") Tipo Gaseras
+                    li: a(data-tab="#tab-plataformas") Plataformas
+                    li: a(data-tab="#tab-lona-o-furgon") Lona o Furgón
+                .tabs-content
+                  .card.is-active#tab-mudanceras
+                    .card-content
+                      h3.title Mudanceras
+                      p Cajas secas mudanceras. Prácticas en todos los aspectos de carga por sus 40 m3 a 66 m3 en espacio. Pueden habilitarse con redondos de amarre o rieles logísticos para tensar con bandas.
+                      p Complementadas con faldones laterales y cajas de herramientas que, además de dar estética a la unidad, brinda más espacio útil.
+                      p Mudanza de 11 mts de largo con una capacidad de 80 m3. Camarote y cajas de htas.
+                      img(src="app/img/mudanceras.jpg")
+                  .card#tab-cajas-secas
+                    .card-content
+                      h3.title Cajas Secas
+                      p Explote al máximo su camión con reflector aerodinámico, evitando la resistencia del viento y mejorando la forma de la carrocería, redituable a corto plazo. Sistema de ventilación óptimo para el producto y la vida misma de la carrocería.
+                      p Entre las características principales de las cajas secas se encuentra la resistencia, el espacio y ligereza. Las dimensiones se delimitan acorde a la unidad en la cuál se instalan, procurando aprovechar al máximo las longitudes permisibles.
+                      p Pueden contener algún tipo de sujeción de carga (redondos de amarre, rieles logísticos, etc.). el terminado exterior remachado y aluminio casi en su totalidad evitando corrosiones. El interior en triplay de 6mm, el piso de madera puede ser reforzado con lámina antiderrapante para mayor resistencia y durabilidad. Excelente diseño exterior.
+                      img(src="app/img/cajas-secas.jpg")
+                  .card#tab-tipo-jaulas
+                    .card-content
+                      h3.title Tipo Jaulas
+                      p Adecuadas para el transporte de productos con volúmen y peso moderado: tinacos, frigocel, pet, etc.Se cuenta con una diversidad de diseños con el fin de satisfacer las necesidades del cliente, forma de traslado, estética y lujo.
+                      p Los materiales empleados para la fabricación pueden variar, así como los tipos de rejillas, etc., brindando la resistencia adecuada y un peso no exagerado.
+                      img(src="app/img/tipo-jaulas.jpg")
+                  .card#tab-tipo-gaseras
+                    .card-content
+                      h3.title Tipo Gaseras
+                      p Estas carrocerías pueden ser muy variables en su diseño, lo que se ve igualmente reflejado en el precio.
+                      p En la imagen 2 se aprecia una gasera sencilla de precio accesible que cumple con los requerimientos del cliente. Se pueden realizar desarrollos más completos que limiten la visibilidad de la mercancía utilizando páneles troquelados.
+                      img(src="app/img/tipo-gaseras.jpg")
+                  .card#tab-plataformas
+                    .card-content
+                      h3.title Plataformas
+                      p Con una gran gama, aptas para cualquier unidad: Nissan 3.5 tons., camiones, etc. Pueden ser con concha al frente, totalmente metálicas o con madera, al igual que simples o con faldones laterales (se puede incluír caja de herramientas).
+                      p Con diseño versátil que cumple con las funciones necesarias. Se puede manejar piso en madera de grosor variable, piso de lámina lisa o antiderrapante.
+                      img(src="app/img/plataformas.jpg")
+                  .card#tab-lona-o-furgon
+                    .card-content
+                      h3.title Cajas Secas de Lona o Tipo Furgón
+                      p Se caracterizan por el fácil acceso a la mercancía, el cual se recomienda en tarimas o pallets, ya que se sólo se cuenta con sujeción en la parte frontal y trasera. Permite fácil conteo y revisión de producto, agileza en la descarga del mismo con montacargas o picking.
+                      p El espacio es útil al igual que con cualquier caja seca. Las lonas pueden emplearse para publicidad.
+                      img(src="app/img/lonas-furgon.jpg")
+        .columns
+          .column
+            hr
+            .has-text-centered: strong.is-size-4.sec-txt.font2 Podemos diseñar la carrocería que usted necesita: práctica, resistente, estética.
+            hr
+              
+              
+    section.section#trabajos
+      .container
+        .columns
+          .column: h2 TRABAJOS
+        
+        .columns
+          .column.is-6
+            | <iframe width="100%" height="315" src="https://www.youtube.com/embed/dYWaSt0F56Q?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          .column.is-6
+            | <iframe width="100%" height="315" src="https://www.youtube.com/embed/qbP_8x9WGAM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        
+        .columns
+          .column.is-6
+            .slider
+              div: img(src="app/img/gal/g1.jpg")
+              div: img(src="app/img/gal/g2.jpg")
+              div: img(src="app/img/gal/g3.jpg")
+              div: img(src="app/img/gal/g4.jpg")
+              div: img(src="app/img/gal/g5.jpg")
+          .column.is-6
+            .slider
+              div: img(src="app/img/gal/g6.jpg")
+              div: img(src="app/img/gal/g7.jpg")
+              div: img(src="app/img/gal/g8.jpg")
+              div: img(src="app/img/gal/g9.jpg")
+    
+    
+    section.section#contacto
+      .container
+        .columns
+          .column: h2 CONTACTO
+        .columns
+          .column.is-6
+            form.card
+              .card-content
+                h3.title.sec-txt Escríbenos
+                .field
+                  label.label Nombre
+                  .control: input.input(placeholder="Ingresa tu nombre")
+                .columns
+                  .column: .field
+                    label.label Empresa
+                    .control: input.input(placeholder="Nombre de empresa")
+                  .column: .field
+                    label.label Correo electrónico
+                    .control: input.input(placeholder="usuario@dominio.com")
+                .columns
+                  .column: .field
+                    label.label Teléfono
+                    .control: input.input(placeholder="(lada) 5555 - 5555")
+                  .column: .field
+                    label.label Ciudad
+                    .control
+                      .select: select
+                        option Selecciona tu ciudad
+                        +edos
+                .field
+                  label.label Mensaje
+                  .control: textarea.textarea(placeholder="Escríbenos")
+                .field.has-text-right
+                  button(type="submit").button.button-send
+                    span.icon.is-small: i.fa.fa-paper-plane
+                    span Enviar
+          .column.is-6
+            .card
+              .card-content
+                h3.title.sec-txt ¡Nos gustaría conocerte!
+                p Nos gusta dar servicio de calidad y ajustados a sus necesidades, por lo que nos encantaría visitarlo directamente en sus oficinas y platicarles más acerca de nuestros productos y servicios.
+                p Contamos con oficinas propias ubicadas en #[strong.main-txt Ixtapaluca, Edo. de México.]
+                
+                h4.main-txt Contáctanos
+                .columns.has-text-centered
+                  .column: p.is-size-5
+                    a(href="tel:41181027")
+                      i.fa.fa-phone
+                      span  01 (55) 4118-1027
+                  .column: p.is-size-5
+                    a(href="tel:59860684")
+                      i.fa.fa-phone
+                      span  5986-0684
+                .columns.has-text-centered
+                  .column: p: a(href="mailto:ventas@dieldem.com.mx").button ventas@dieldem.com.mx
+                  .column: p: a(href="mailto:hflores@dieldem.com.mx").button hflores@dieldem.com.mx
+                p.has-text-centered Atención: #[strong.main-txt Huri Flores]
+    +footer
+
+    +scripts
