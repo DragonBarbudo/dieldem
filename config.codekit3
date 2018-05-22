@@ -564,11 +564,138 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/crossdomain.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/crossdomain.xml",
+		"oF": 0
+		},
+	"\/dieldem.png": {
+		"ft": 32768,
+		"iS": 24894,
+		"oA": 0,
+		"oAP": "\/dieldem.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/f\/1.jpg": {
+		"ft": 16384,
+		"iS": 13623,
+		"oA": 0,
+		"oAP": "\/f\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/2.jpg": {
+		"ft": 16384,
+		"iS": 13687,
+		"oA": 0,
+		"oAP": "\/f\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/3.jpg": {
+		"ft": 16384,
+		"iS": 13874,
+		"oA": 0,
+		"oAP": "\/f\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/4.jpg": {
+		"ft": 16384,
+		"iS": 13770,
+		"oA": 0,
+		"oAP": "\/f\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/5.jpg": {
+		"ft": 16384,
+		"iS": 11885,
+		"oA": 0,
+		"oAP": "\/f\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/6.jpg": {
+		"ft": 16384,
+		"iS": 12546,
+		"oA": 0,
+		"oAP": "\/f\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/f\/7.jpg": {
+		"ft": 16384,
+		"iS": 13981,
+		"oA": 0,
+		"oAP": "\/f\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 6373,
 		"oA": 0,
 		"oAP": "\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/google641cf60e3e4b6170.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/google641cf60e3e4b6170.html",
+		"oF": 0
+		},
+	"\/humans.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/humans.txt",
+		"oF": 0
+		},
+	"\/imgs\/dieldem.png": {
+		"ft": 32768,
+		"iS": 24894,
+		"oA": 0,
+		"oAP": "\/imgs\/dieldem.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -590,6 +717,20 @@
 		"oAP": "\/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sitemap.xml",
+		"oF": 0
 		}
 	},
 "hooks": [
