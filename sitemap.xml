@@ -7,14 +7,34 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://dieldem.com.mx/</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://dieldem.com.mx/</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://dieldem.com.mx/index.html</loc>
-  <lastmod>2012-08-05T01:16:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://dieldem.com.mx/#sistemas-de-almacenamiento</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://dieldem.com.mx/#mantenimiento</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://dieldem.com.mx/#carrocerias</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://dieldem.com.mx/#trabajos</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://dieldem.com.mx/#contacto</loc>
+  <lastmod>2019-01-01T01:16:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 
 </urlset>
